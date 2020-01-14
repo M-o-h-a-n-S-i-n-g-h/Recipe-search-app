@@ -1,0 +1,9 @@
+*=>use 'useEffect()' function to fetch the data from api when the page reloads initially
+
+*=> And to avoid re render ,Add an empty array in the paranthesis of the useEffect function
+
+*=>once the dat is fecthed 'set the state ' to update the fetched data
+
+*=>while updating anything in the form that makes a reload "use {e.preventDefault}"
+
+*=>To make it fetch the data only when the form is submitted "use a sepearate variable to store that query and pass it to the useEffect so that it will load the page when query is submitted"
